@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EnterName" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerGenere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/generes" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addAtrist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddButton" />
+
+    <TextView
+        android:id="@+id/TextViewTrackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ListView
+        android:id="@+id/listViewArtist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

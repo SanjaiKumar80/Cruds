@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Crud</string>
+
+
+    <array name="generes">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Pop</item>
+        <item>folk</item>
+
+    </array>
+</resources>
